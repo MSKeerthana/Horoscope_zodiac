@@ -30,8 +30,9 @@ public class AstroZoneController extends HttpServlet {
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		String submit = request.getParameter("submit");
-		if (submit != null) {
+		String sub = request.getParameter("submit");
+		if (sub != null) {
+			System.out.println("redirecting");
 			RequestDispatcher rd = this.getServletContext().getRequestDispatcher("/entervalues.jsp");
 			rd.forward(request, response);
 		}

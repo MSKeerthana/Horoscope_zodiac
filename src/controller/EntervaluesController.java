@@ -88,7 +88,7 @@ public class EntervaluesController extends HttpServlet {
 		}
 		if(astrosign.equals("Sagittarius")){
 			RequestDispatcher rd=this.getServletContext().getRequestDispatcher("/WEB-INF/Outputview.jsp");
-			request.setAttribute("astro", "<img src='./assets/sagittarius.svg'>");
+			request.setAttribute("astro", "<img src='./assets/sagittaruis.svg'>");
 			rd.forward(request, response);
 		}
 		if(astrosign.equals("Scorpio")){

@@ -1,148 +1,172 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates&display=swap');
-*
-{
-    margin:0%;
-    padding:0%;
+@import
+	url('https://fonts.googleapis.com/css?family=Montserrat+Alternates&display=swap')
+	;
+
+* {
+	margin: 0%;
+	padding: 0%;
 }
-#home
-{
-    background-image: url("./assets/stars background.svg");
-    background-repeat: no-repeat;
-    background-size:cover;
+
+#home {
+	background-image: url("./assets/stars background.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	justify-content: center;
+	display: flex;
+	flex-direction: row;
+/* 	align-items: center; */
 }
-#logo
-{
-position: absolute;
-width: 570px;
-height: 80px;
-margin-top: 130px;
-margin-left: 360px;
+
+#home1 {
+	background-image: url("./assets/stars background.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	justify-content: center;
 }
-#para
-{
-    color:#FFFFFF;
-    position: absolute;
-    width: 620px;
-    height: 44px;
-    font-family: Montserrat Alternates;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 22px;
-    text-align: center;
-    left: 410px;
-    top: 250px;
-    width: 500px;
+
+#logo {
+	position: absolute;
+	width: 570px;
+	height: 80px;
+	margin-top: 80px;
+ 	margin-left:auto;
+	margin-right:auto; 
 }
-#p2
-{
-    width: 520px;
-    height: 80px;
-    
-    font-family: Montserrat Alternates;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 80px;
-    /* identical to box height, or 333% */
-    
-    text-align: center;
-    
-    color: #FFFFFF;
+
+#para {
+	color: #FFFFFF;
+	position: absolute;
+	width: 620px;
+	height: 44px;
+	font-family: Montserrat Alternates;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	left: 410px;
+	top: 250px;
+	width: 500px;
 }
-#button
-{
-    position: absolute;
-    width: 223px;
-    height: 50px;
-    color: black;
-    background-color: #7EC9C5;
-    border-radius: 20px;
-    margin-top: 329px;
-    margin-left: 5%;
+
+#p2 {
+	width: 520px;
+	height: 80px;
+	font-family: Montserrat Alternates;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 80px;
+	/* identical to box height, or 333% */
+	text-align: center;
+	color: #FFFFFF;
 }
-#ftr
-{
-    margin-top:20%;
-    margin-bottom:0%;
-    margin-left:0%;
-    height: 340px;
-    width:100%;
+
+#button1 {
+	position: absolute;
+	width: 223px;
+	height: 50px;
+	color: black;
+	background-color: #7EC9C5;
+	border-radius: 20px;
+	margin-top: 329px;
+	margin-left:28%;
 }
-#logosmall
-{
-    margin-left:88px;
-    width:266px;
-    height:80px;
+
+/* #ftr {
+	margin-top: 20%;
+	margin-bottom: 0%;
+	margin-left: 0%;
+	height: 340px;
+	width: 100%;
+} */
+
+#logosmall {
+	margin-left: 88px;
+	width: 266px;
+	height: 80px;
 }
-form
-{
-    font-family: Montserrat Alternates;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 20px;
-    /* identical to box height, or 333% */
-    margin-left:35%;
-    color: #FFFFFF;
+
+form {
+	font-family: Montserrat Alternates;
+	font-style: normal;
+	font-weight: normal;
+ 	font-size: 20px;
+	line-height: 20px;
+	identical to box height, or 333%
+	margin-left: 35%;
+	color: #FFFFFF; 
+	width:1000px;
+	margin:auto;
 }
-input[type="text"]
-{
-    background: transparent;
-    border: 1px solid #7EC9C5;
-    border-radius: 15px;
-    /* line-height: 20px; */
-    padding:10px;
-    width: 514px;
-    color:white;
-    /* height: 50px; */
+
+input[type="text"] {
+	background: transparent;
+	border: 1px solid #7EC9C5;
+	border-radius: 15px;
+	/* line-height: 20px; */
+	padding: 10px;
+	width: 514px;
+	color: white;
+	/* height: 50px; */
 }
-#container
-{
-    width:800px;
-    height:900px;
-    justify-content: space-evenly;
+
+#container {
+	width: 900px;
+	height: 900px;
+	display:block;
+	margin-left:30%;
 }
-#inp3
-{
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 0px;
-    border-top-right-radius: 0px;
-    width:30px;
+
+#inp3 {
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 0px;
+	border-top-right-radius: 0px;
+	width: 30px;
 }
-#inp4
-{
-    border-top-left-radius: 0px;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-    border-top-right-radius: 0px;
-    width:30px;
+
+#inp4 {
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-right-radius: 0px;
+	width: 30px;
 }
-#inp5
-{
-    border-top-left-radius: 0px;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 20px;
-    border-top-right-radius: 20px;
-    width:30px;
+
+#inp5 {
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 20px;
+	border-top-right-radius: 20px;
+	width: 30px;
 }
-#button2
-{
-    position: absolute;
-    width: 223px;
-    height: 50px;
-    color: black;
-    background-color: #7EC9C5;
-    border-radius: 20px;
-    margin-top: 40px;
-    margin-left:110px;
+
+#button2 {
+	position: absolute;
+	width: 223px;
+	height: 50px;
+	color: black;
+	background-color: #7EC9C5;
+	border-radius: 20px;
+	margin-top: 40px;
+	margin-left: 110px;
 }
+
 #container input:checked ~ #gender {
-    background-color: #2196F3;
-  }
- #zodiac
- {
- height:50%;
- width:100%;
- }
+	background-color: #2196F3;
+}
+
+#zodiac {
+	height: 50%;
+	width: 100%;
+	display: flex;
+}
+
+.footer {
+	display: flex;
+	flex-direction: row;
+	position: absolute;
+	margin-top:29%;
+	margin-left:-15%;
+} 

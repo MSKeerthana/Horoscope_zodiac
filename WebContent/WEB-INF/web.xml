@@ -3,6 +3,6 @@
   <display-name>Week-1-Day-1-Lab-1</display-name>
   <welcome-file-list>
     <welcome-file>astrozone</welcome-file>
-
+	<welcome-file>entervalue</welcome-file>
   </welcome-file-list>
 </web-app>

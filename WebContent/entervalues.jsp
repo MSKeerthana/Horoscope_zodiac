@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Entervalues</title>
 </head>
-<body id="home">
+<body id="home1">
     <img src="./assets/small logo.svg" id="logosmall">
     <form id="container"  action="/lab-java-astrozone/entervalue" method="post"> 
         <p id="p2">Enter your details to check your horoscope</p>

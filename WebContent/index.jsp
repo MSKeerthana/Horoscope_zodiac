@@ -9,14 +9,18 @@
     <title>Home</title>
 </head>
 <body id="home">
-
     <img src="./assets/Big logo.svg" id="logo">
+    <div>
+	<form  action="/lab-java-astrozone/astrozone" method="post" id="form1">
     <div id="para">
     <p>Check your horoscope to discover and make the most of your life opportunities</p>
     </div>
-    <form  action="/lab-java-astrozone/astrozone" method="post">
-    <input type="submit" value="Check Now" id="button" name="submit">
+    <div>
+    <input type="submit" value="Check Now" id="button1" name="submit">
+    </div>
     </form> 
-    <img src="./assets/Footer.svg" id="ftr">
+    <div>
+    <footer class="footer">    <img src="./assets/Footer.svg" id="ftr"></footer>
+    </div>
 </body>
 </html>
